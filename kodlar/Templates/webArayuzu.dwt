@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Ana Ekran</title>
+<!-- TemplateEndEditable -->
+<link href="../baslık.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div align="center" class="baslık">Moduna Göre Müzik </div>
+<table width="346" border="0" align="right">
+  <tr>
+    <td width="89"><strong><a href="../anaEkran.html" title="girisYap" class="linkStyle">Ana Sayfa</a></strong></td>
+    <td width="80"><strong><a href="../girisEkrani.html" title="girisYap"  class="linkStyle">Giriş Yap</a></strong></td>
+    <td width="68"><strong><a href="../uyeOl.php" title="uyeOl" class="linkStyle">Üye Ol</a></strong></td>
+    <td width="91"><strong><a href="../anaEkran.html" title="hakkinda" class="linkStyle">Hakkında</a></strong></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<!-- TemplateBeginEditable name="EditRegion1" -->
+<form id="form1" name="form1" method="post" action="">
+  <div align="center">
+    <table width="264">
+      <tr>
+        <td width="211"><label for="arama"></label>
+          <input type="text" name="arama" id="arama" /></td>
+        <td width="41"><input type="submit" name="arama2" id="arama2" value="Ara" /></td>
+      </tr>
+    </table>
+  </div>
+  <p align="center" class="normal"> Arama Sonucu</p>
+  <p align="center" class="normal">
+    <textarea name="aramaSonucu" cols="45" rows="20" class="liste" id="aramaSonucu"></textarea>
+  </p>
+</form>
+<!-- TemplateEndEditable -->
+<p>&nbsp;</p>
+<p align="right"></p>
+<p>&nbsp;</p>
+</body>
+</html>

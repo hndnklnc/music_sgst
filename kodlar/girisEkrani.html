@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Giris Ekrani</title>
+<link href="baslık.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryValidationPassword.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryValidationPassword.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div align="center" class="baslık">LÜTFEN GİRİŞ YAPINIZ </div>
+<table width="400" border="0" align="right">
+  <tr>
+    <td width="112"><a href="anaEkran.php" title="girisYap" class="linkStyle"><strong>Ana Sayfa</strong></a></td>
+    <td width="97"><a href="girisEkrani.html" title="girisYap"  class="linkStyle"><strong>Giriş Yap</strong></a></td>
+    <td width="72"><strong><a href="uyeOl.html" title="uyeOl" class="linkStyle">Üye Ol</a></strong></td>
+    <td width="101"><strong><a href="hakkinda1.php" title="hakkinda" class="linkStyle">Hakkında</a></strong></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<label><label><label></label></label></label><form id="form1" name="form1" method="post" action="girisKontrol.php">
+<p>&nbsp;  </p>
+  <h2>&nbsp;</h2>
+  <h2>&nbsp;</h2>
+  
+  <p>&nbsp;</p>
+  <div align="center"></div>
+  <p>&nbsp;</p>
+  <div align="center">
+    <table width="426" border="1">
+      <tr>
+        <td width="101">Kullanıcı Adı</td>
+        <td width="309"><div align="center"><span id="sprytextfield1">
+          <label for="ka2"></label>
+          <input type="text" name="ka" id="ka2" />
+        <span class="textfieldRequiredMsg">Boşlukları doldurunuz.</span></span></div></td>
+      </tr>
+      <tr>
+        <td>Şifre</td>
+        <td><div align="center"><span id="sprypassword1">
+          <label for="sifre"></label>
+          <input type="password" name="sifre" id="sifre" />
+        <span class="passwordRequiredMsg">Boşlukları doldurunuz.</span></span></div></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><div align="center">
+          <input type="submit" name="button" id="button" value="Giriş" />
+        </div></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><div align="center"></div></td>
+      </tr>
+    </table>
+  </div>
+  <div align="center"></div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p align="center">&nbsp;</p>
+<p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</form>
+<script type="text/javascript">
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+var sprypassword1 = new Spry.Widget.ValidationPassword("sprypassword1");
+</script>
+</body>
+</html>

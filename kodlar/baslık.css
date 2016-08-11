@@ -1,0 +1,38 @@
+.baslık {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	
+	color: white;
+	text-align: center;
+}
+.liste {
+	background-color: #FFF;
+	visibility: hidden;
+	background-position: center center;
+}
+.normal {
+	font-size: 18px;
+	color:  white;
+}
+
+.linkStyle {
+	background-image: none;
+	font-size: 18px;
+	color: #303;
+}
+body
+{
+background-image:url('GuitarAD_WP-513798.jpeg');
+}
+.table{
+	alignment-adjust:central;
+	border:thick;
+	background-color:#00CC33;
+	
+	
+	
+	}
+	

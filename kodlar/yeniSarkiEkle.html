@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sarkı ekle</title>
+<link href="baslık.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div align="center" class="baslık">İSTEDİĞİNİ SEÇ!!! </div>
+<table width="400" border="0" align="right">
+  <tr>
+    <td width="112"><a href="secim.php" title="girisYap" class="linkStyle"><strong>Ana Sayfa</strong></a></td>
+    <td width="97"><a href="cikisYap.php" title="CikisYap"  class="linkStyle"><strong>Çıkış Yap</strong></a></td>
+    <td width="101"><strong><a href="hakkinda.php" title="hakkinda" class="linkStyle">Hakkında</a></strong></td>
+  </tr>
+</table>
+<form id="form1" name="form1" method="post" action="yeniSarkiEkle.php">
+  <div align="center">
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h1 class="baslık">Yeni Müzik Ekle</h1>
+    <table width="394" border="1">
+      <tr>
+        <td width="166">Şarkı Adı</td>
+        <td width="212"><span id="sprytextfield1">
+          <label for="sa"></label>
+          <input type="text" name="sa" id="sarkıAd" />
+        <span class="textfieldRequiredMsg">Boslukları doldurunuz.</span></span></td>
+      </tr>
+      <tr>
+        <td>Şarkıcı Adı</td>
+        <td><span id="sprytextfield2">
+          <label for="sarkıcıAd"></label>
+          <input type="text" name="sarkıcıAd" id="sarkıcıAd" />
+        <span class="textfieldRequiredMsg">Boslukları doldurunuz.</span></span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" name="Kaydet" id="button" value="Kaydet"  /></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+  </div>
+</form>
+<script type="text/javascript">
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
+</script>
+</body>
+</html>
